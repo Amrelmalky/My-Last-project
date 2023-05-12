@@ -1,7 +1,9 @@
-function App() {
+import React from 'react';
+
+const Css = () => {
   return (
     <>
-          <header className="hide-when-mobile">
+      <header className="hide-when-mobile">
         <h1>Courses 4 Arab</h1>
         <ul class="flex">
           <li class="main-list">
@@ -130,14 +132,14 @@ function App() {
       </header>
 
       <main>
-      It is The Home Page
+      It is The Css Page
       </main>
       <footer>
         Designed & developed by Courses4Arab.com
         <span>&#129505;</span>
       </footer>
     </>
-  )
+  );
 }
 
-export default App;
+export default Css;

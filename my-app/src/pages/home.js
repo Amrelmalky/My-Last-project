@@ -1,7 +1,9 @@
-function App() {
+
+
+const Home = () => {
   return (
     <>
-          <header className="hide-when-mobile">
+      <header className="hide-when-mobile">
         <h1>Courses 4 Arab</h1>
         <ul class="flex">
           <li class="main-list">
@@ -137,7 +139,7 @@ function App() {
         <span>&#129505;</span>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default App;
+export default Home;
