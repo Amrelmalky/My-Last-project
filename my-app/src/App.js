@@ -136,7 +136,7 @@ function App() {
         HTML & CSS only
       </main>
       <footer>
-        Designed and developed by Courses4Arab.com
+        Designed & developed by Courses4Arab.com
         <span>&#129505;</span>
       </footer>
     </>
