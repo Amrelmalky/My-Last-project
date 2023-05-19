@@ -1,16 +1,16 @@
 
 import React from 'react';
-import './Footer.css'
+import classes from './Footer.module.css'
 
 const Footer = () => {
   return (
     <>
-  <div className='myFooter'>
-          <footer className='Mizo' >
+
+          <footer className={classes.Mizo} >
           Designed & developed by Courses4Arab.com
           <span>&#129505;  Mizo & Domy </span>
         </footer>
-  </div>
+  
     </>
   );
 }
