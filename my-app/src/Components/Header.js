@@ -1,15 +1,22 @@
-import React from 'react';
+import React from "react";
+
+import { NavLink, Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
     <>
-          <header className="hide-when-mobile">
-        <h1> Learing React  2023</h1>
+      <header className="hide-when-mobile">
+        <h1>
+        
+          <Link to="/"> Learing React 2023 </Link>
+        </h1>
+
         <ul class="flex">
           <li class="main-list">
-            <a class="main-link" href="/html">
+            <NavLink className="main-link" to="/html">
               HTML
-            </a>
+            </NavLink>
             <ul class="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -23,9 +30,9 @@ const Header = () => {
             </ul>
           </li>
           <li class="main-list">
-            <a class="main-link" href="/css">
+            <NavLink className="main-link" to="/css">
               CSS
-            </a>
+            </NavLink>
             <ul class="sub-ul">
               <li>
                 <a href="">Full Course</a>
@@ -50,9 +57,9 @@ const Header = () => {
             </ul>
           </li>
           <li class="main-list">
-            <a class="main-link" href="/javascript">
+            <NavLink className="main-link" to="/javascript">
               JavaScript
-            </a>
+            </NavLink>
             <ul class="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon&#128293;</a>
@@ -63,7 +70,7 @@ const Header = () => {
       </header>
 
       <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>Courses 4 Arab</h1>
+        <h1> Learning React</h1>
         <label className="absolute" htmlFor="burger">
           <i class="fas fa-bars"></i>
         </label>
@@ -132,6 +139,6 @@ const Header = () => {
       </header>
     </>
   );
-}
+};
 
 export default Header;

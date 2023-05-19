@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import MainContent from "../Components/MainContent";
 
 const Javascript = () => {
   return (
     <>
       <Header />
 
-      <main>It is The JavaScript Page</main>
+      
+      <MainContent PageName="JavaScript Page"/>
 
       <Footer />
     </>
