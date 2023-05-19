@@ -13,12 +13,16 @@
 
 /* will apply only for screens less than 800 px */
 @media (max-width:800px) {
-  .show-when-mobile {
+.show-when-mobile {
     display: block;
   }
   
-  .hide-when-mobile {
+.hide-when-mobile {
     display: none;
   }
   
+}
+
+ .Mizo{
+  background-color: #a8b819;
 }

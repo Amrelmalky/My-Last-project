@@ -5,10 +5,12 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
-        <footer>
-        Designed & developed by Courses4Arab.com
-        <span>&#129505;  Mizo & Domy </span>
-      </footer>
+  <div className='myFooter'>
+          <footer className='Mizo' >
+          Designed & developed by Courses4Arab.com
+          <span>&#129505;  Mizo & Domy </span>
+        </footer>
+  </div>
     </>
   );
 }
